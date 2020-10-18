@@ -55,6 +55,7 @@ img {
   border-radius: 50%;
   padding: 20px;
 }
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_unequal*/
 * {
   box-sizing: border-box;
 }
@@ -66,9 +67,11 @@ img {
 }
 .left {
   width: 25%;
+  background-color:#5DADE2
 }
 .right {
   width: 75%;
+  background-color:white
 }
 .row:after {
   content: "";
@@ -93,11 +96,11 @@ img {
 </div>
 
 <div class="row">
-  <div class="column left" style="background-color:#aaa;">
+  <div class="column left">
     <h2>Column 1</h2>
     <p>Some text..</p>
   </div>
-  <div class="column right" style="background-color:#bbb;">
+  <div class="column right">
     <h2>Column 2</h2>
     <p>Some text..</p>
   </div>
