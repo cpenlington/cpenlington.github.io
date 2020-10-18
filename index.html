@@ -55,6 +55,22 @@ img {
   border-radius: 50%;
   padding: 20px;
 }
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; 
+}
+.left {
+  width: 25%;
+}
+.right {
+  width: 75%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 <title>Page Title</title>
 </head>
@@ -70,6 +86,17 @@ img {
   <img src="../images/resumephotoresized.jpg" alt="Resume Photo" style="float:left;width:200px;height:200px;"> 
   <h1> CHELSEA PENLINGTON </h1>
   <h2> GIS Technician </h2>
+</div>
+
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
 </div>
 
 </body>
