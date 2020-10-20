@@ -105,15 +105,13 @@ img {
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_unequal*/
 
 .row:after {
-  content: "";
   display: table;
-  clear: both;
+  margin: 0 -9999rem;
 }
 
 .column {
   padding: 10px;
   display: table-cell;
-  box-sizing: border-box;
 }
   
 .left {
