@@ -33,7 +33,11 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-  
+ 
+img {
+  float:left;
+}
+
 h1 {
   color: #5DADE2;
   font-size: 40px;
