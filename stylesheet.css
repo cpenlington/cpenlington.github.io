@@ -46,7 +46,7 @@
 
 /*Image padding to format images in there respective div*/
 img {
-  padding; 10px
+  padding: 10px;
 }
 
 /*No margins on icon div on contact page*/
