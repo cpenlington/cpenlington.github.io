@@ -108,14 +108,14 @@ img {
   
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_unequal*/
 
-.row:after {
+.row {
   display: table;
-  left: 100%;
 }
 
 .column {
   padding: 10px;
   display: table-cell;
+
 }
   
 .left {
@@ -125,7 +125,7 @@ img {
   padding-bottom: 20px;
 }
   
-.right {
+.right:after {
   width: 75%;
   background-color: #F7F7F7;
   padding-left: 20px;
