@@ -46,14 +46,11 @@ img {
   padding: 25px;
 }
 
-.icon a {
+.icon a:hover {
   color: #5DADE2;
   text-decoration: none;
 }
 
-.icon a:hover:not(.active) {
-  background-color: #78B7E0;
-}
 h1 {
   color: #5DADE2;
   font-size: 40px;
