@@ -33,20 +33,27 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 img {
   padding; 10px
 }
+
 .iconblock {
   margin: none;
 }
 
+.icon {
+  padding: 25px;
+}
+
 .icon a {
   color: #5DADE2;
-  padding: 25px;
   text-decoration: none;
 }
+
 .icon a:hover:not(.active) {
   background-color: #78B7E0;
+}
 h1 {
   color: #5DADE2;
   font-size: 40px;
