@@ -38,10 +38,11 @@ img {
 }
 .iconblock {
   background-color: #F7F7F7;
+  margin: none;
 }
 .icons {
   padding: 25px;
-  margin: 0px;
+  margin: none;
 }
 
 h1 {
