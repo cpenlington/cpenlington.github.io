@@ -39,8 +39,11 @@ img {
 .iconblock {
   margin: none;
 }
-.icons {
+.icon {
   padding: 25px;
+}
+.icon a:hover {
+  color: blue;
 }
 
 h1 {
