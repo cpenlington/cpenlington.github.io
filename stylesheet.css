@@ -46,11 +46,17 @@ img {
   padding: 25px;
 }
 
+.icon a {
+  color: #5DADE2;
+  text-decoration: none;
+}
+
 .icon a:hover {
   color: #5DADE2;
   background-color: white;
   text-decoration: none;
 }
+
 
 h1 {
   color: #5DADE2;
