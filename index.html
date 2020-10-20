@@ -103,6 +103,14 @@ img {
 }
   
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_unequal*/
+
+.row {
+  width:100%;
+}
+.row:after {
+  display: table;
+}
+  
 .column {
   padding: 10px;
   display: table-cell;
@@ -119,10 +127,6 @@ img {
   width: 75%;
   background-color: #F7F7F7;
   padding-left: 20px;
-}
-  
-  .row {width=100%;}:after {
-  display: table;
 }
   
 #cert {
