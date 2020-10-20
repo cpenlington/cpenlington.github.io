@@ -39,10 +39,8 @@ img {
 .iconblock {
   margin: none;
 }
-.icon {
-  padding: 25px;
-}
-.icon a:hover {
+
+.icon a:link {
   color: #5DADE2;
   padding: 25px;
   text-decoration: none;
