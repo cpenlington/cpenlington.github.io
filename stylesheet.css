@@ -33,12 +33,14 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
- 
+img {
+  padding; 20px
+}
 .iconblock {
   background-color: #F7F7F7;
 }
 .icons {
-  padding: 10px;
+  padding: 20px;
 }
 
 h1 {
