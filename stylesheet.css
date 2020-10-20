@@ -201,6 +201,12 @@ img {
   padding: 5px;
 }
 
+.educationdata a {
+ color: #5DADE2;
+ text-decoration: none;
+ background-color: #F7F7F7;
+}
+
 .educationheading {
   background-color: #B1DAF9;
   color: white;
