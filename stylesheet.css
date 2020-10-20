@@ -51,7 +51,7 @@ img {
 
 /*No margins on icon div on contact page*/
 .iconblock {
-  margin: none;
+  margin: 0;
 }
 
 /*Formatting for the <p> tags in icon div on contacts page*/
@@ -224,7 +224,7 @@ img {
  color: #5DADE2;
  text-decoration: none;
  background-color: #F7F7F7;
- padding: none;
+ padding: 0;
 }
 
 .educationheading {
