@@ -34,10 +34,11 @@
   margin-bottom: 10px;
 }
 img {
-  padding; 20px
+  padding; 10px
 }
 .iconblock {
   background-color: #F7F7F7;
+  margin: 0px;
 }
 .icons {
   padding: 20px;
