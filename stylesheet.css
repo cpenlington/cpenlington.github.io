@@ -38,6 +38,11 @@ img {
   float:left;
 }
 
+.iconblock {
+  background-color: #F7F7F7;
+  padding: 14px;
+  margin-top: 10px;
+}
 .icons {
   padding: 20px;
 }
