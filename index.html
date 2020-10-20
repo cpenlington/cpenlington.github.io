@@ -106,7 +106,6 @@ img {
 .column {
   padding: 10px;
   display: table-cell;
-  width:100%;
 }
   
 .left {
@@ -124,7 +123,11 @@ img {
   
 .row:after {
   display: table;
-  width:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
   
 #cert {
