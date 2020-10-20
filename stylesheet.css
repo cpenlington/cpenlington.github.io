@@ -40,7 +40,7 @@ img {
   margin: none;
 }
 
-.icon a:active {
+.icon a {
   color: #5DADE2;
   padding: 25px;
   text-decoration: none;
