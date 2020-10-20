@@ -171,6 +171,27 @@ table {
   margin: 15px
 }
   
+.education {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.educationdata {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd){
+background-color: #F7F7F7
+}
+
+.educationheading {
+  background-color: #B1DAF9;
+  color: white;
+  text-align: left;
+  padding: 8px;
+}
+  
 </style>
 <title>Virtual Resume</title>
 </head>
@@ -245,6 +266,26 @@ table {
       </tr>
     </table>
     
+    <h4>Education</h4>
+
+     <table class="education">
+      <tr>
+       <th class="educationheading">Degree/Diploma</th>
+       <th class="educationheading">School</th>
+      </tr>
+      <tr>
+        <td class="educationdata">GIS Applications Specialist Graduate Certificate</td>
+        <td class="educationdata">Fleming College</td>
+      </tr>
+      <tr>
+         <td class="educationdata">B.Sc. Environmental Science and Natural Resources</td>
+         <td class="educationdata">Trent University</td>
+      </tr>
+      <tr>
+        <td class="educationdata">Environmental Technologist Advanced Diploma</td>
+        <td class="educationdata">Loyalist College</td>
+      </tr>
+    </table>
 
     <h4>Certification</h4>
     <ul id="cert" class="sidecolumntext">
